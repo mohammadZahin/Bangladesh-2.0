@@ -1,0 +1,113 @@
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
+
+/* Nav Styles */
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    list-style: none;
+}
+.btn-primary {
+  color: #006A5C;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  border: #006A5C 1px solid;
+}
+/*Banner styles*/
+.Banner-start{
+ color: gray;
+}
+.banner{
+  display: flex;
+  align-items: center;
+  background-color:#C6E4D6;
+  border-radius: 15px;
+  margin-left:30px;
+  margin-right:30px;
+}
+.banner-content{
+  padding-left: 25px;
+}
+
+/* Section styles */
+.pillars-section {
+  text-align: left;
+  padding: 20px;
+  background-color:white; 
+}
+
+
+.pillars-heading {
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+
+.pillars-cards {
+  display: flex;
+  justify-content:left;
+  gap: 15px; 
+  flex-wrap: wrap;
+}
+
+
+.pillar-card {
+  background: white;
+  border: 1px solid white; 
+  border-radius: 8px; 
+  width: 200px; 
+  padding: 15px;
+  text-align: left;
+}
+
+.pillars-section {
+  text-align: left;
+  padding: 20px;
+  background-color: white;
+}
+
+.pillars-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.pillars-cards{
+  display: flex;
+  justify-content: left;
+  gap: 15px; 
+  flex-wrap: wrap;
+}
+
+.pillar-card {
+  background: white;
+  border: 1px solid white; 
+  border-radius: 8px; 
+  width: 200px; 
+  padding: 15px;
+  text-align: left;
+}
+
+.pillar-card img {
+  width: 40px; 
+  margin-bottom: 10px; 
+}
+
+.pillar-card h2 {
+  font-size: 18px;
+  margin: 10px ;
+}
+  .pillar-card p {
+  font-size: 14px;
+  color: grey 
+}
+.vision-text{
+  font-size: small;
+  color: grey;
+}
